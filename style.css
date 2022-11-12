@@ -1,0 +1,136 @@
+
+.text_over_image {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 10%;
+  bottom:0;
+  color:#fff;
+  height:100px;
+  font-size: 50px;
+}
+
+
+.stretch {
+  width: 100%;
+  height: 100%
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.bg-img {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1e96f5f-8f4e-4414-9233-de8aa363b036/d4c44ca-fc98fe41-e32b-4f36-bbeb-408d44cfe0dd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ExZTk2ZjVmLThmNGUtNDQxNC05MjMzLWRlOGFhMzYzYjAzNlwvZDRjNDRjYS1mYzk4ZmU0MS1lMzJiLTRmMzYtYmJlYi00MDhkNDRjZmUwZGQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zE5P3-M6fOlcnmLwn8ZuTxKUGbDTU2T37clKRshfa5M");
+  min-height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height:auto;
+  margin: auto;
+  text-align:center;
+  position:relative;
+}
+
+.container {
+  position: absolute;
+  margin: 0px;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #738678;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+  
+body {
+  font-family: "ubuntu";
+  color: black;
+  background-color: black;
+  line-height: 1.4;
+  width: 100%;
+  font-size: large;
+}
+
+p {
+  text-align: center;
+}
+
+#about {
+  margin-left: 19%;
+   margin-top: 10%;
+   display: flex;
+   justify-content: space-between;
+    width: 50%; 
+ }
+ 
+#storylayover {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#review {
+  color: white;
+  font-size: 150%;
+}
+
+ #submit {
+   width: 20%;
+   padding: 0.75rem;
+   background: blue; 
+   color: white;
+   border-radius: 2px
+ }
+ 
+ #email {
+   display: block;
+   width: 18.5%;
+   height: 2rem;
+   padding:0.25rem 0.75rem;
+   background-color: #fff;
+   border: 1px solid #ced4da;
+   border-radius: 0.25rem;
+ }
+
+ #text {
+  display: block;
+  width: 18.5%;
+  height: 2rem;
+  padding:0.25rem 0.75rem;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
